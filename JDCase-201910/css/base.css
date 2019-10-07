@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+li{
+	list-style: none;
+}
+html{
+	font-size: 100px;
+}
+body{
+	font-size: .12rem;
+	font-family: times,'microsoft yahei';
+	background-color: #f6f6f6;
+}
+a{
+	text-decoration:none;
+	color:#111;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clearfixed::before,
+.clearfixed::after{
+	content: '';
+	display: block;
+	clear: both;
+}
